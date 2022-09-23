@@ -35,12 +35,12 @@
        ├── urls.py
        ├── wsgi.py
 ```
-6. Download the code. Replace the contents of the main folder blog, with the downloaded code
+6. Download the code. Replace the contents of the main folder weatherapp, with the downloaded code
 7. Generate an API key after signing in to https://home.openweathermap.org/
 8. Replace <copy your api key here>, in the file views.py of weather folder, by the generated API key
 
 ## Run the project
 ```sh
-cd blog
+cd weatherapp
 py manage.py runserver
 ```
