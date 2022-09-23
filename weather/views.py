@@ -8,7 +8,7 @@ def index(request):
     context = {}
     if request.method == 'POST':
         city = str(request.POST['city']).capitalize()
-        api_key = '<copy your api key here>'
+        api_key = <copy your api key here>
         res = urllib.request.urlopen('https://api.openweathermap.org/data/2.5/weather?q='+city+'&appid='+api_key).read()
         json_data = json.loads(res)
         country_code = str(json_data['sys']['country'])
